@@ -6,7 +6,7 @@ public:
             if(mp.find(nums[i])!=mp.end()){
                 return nums[i];
             }else{
-                mp[nums[i]]=1;
+                mp[nums[i]]=1; 
             }
         }
         return 0;
